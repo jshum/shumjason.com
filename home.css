@@ -1,0 +1,156 @@
+/*COMMON*/
+body {
+	margin: 0;
+	background-color: #6e6e6e;
+}
+
+a:hover {
+	color: #00deff;
+}
+
+a {
+	color: white;
+	text-decoration:none;
+}
+/*CONTENT*/
+#container {
+	width: 900px;
+	margin: 0 auto;
+	background-color: #6e6e6e;
+}
+
+#header {
+	float:left;
+	width: 900px;
+	height: 175px;
+	background-color: #6e6e6e;
+	
+}
+
+#headerLeft {
+	float:left;
+	width: 550px;
+	height: 100px;
+	background-color: #292929;
+	border-bottom-left-radius: 10px;
+	
+}
+
+#headerCenter {
+	float:left;
+	width:323px;
+	height:135px;
+}
+
+#headerRight {
+	float:right;
+	width: 27px;
+	height: 100px;
+	background-color: #292929;
+	border-bottom-right-radius: 10px;
+
+	}
+	
+#linksC {
+	width: auto;
+	float:right;
+	vertical-align: middle;
+	line-height:40px;
+	margin: 0px 20px 0px auto;
+	
+	font-family:Impact;
+	font-style: italic;
+	font-size: 20px;
+}
+
+.link {
+	margin: 0 10px;
+}
+
+#content {
+	float:left;
+	width: 900px;
+	border-radius:10px;
+	background-color: white;
+	
+}
+
+#imgTree {
+	padding: 10px 0 0 0;
+}
+
+#contentTitle {
+	font-size: 40px;
+	margin: 30px 0 0 15px;
+	font-family:Impact;
+	font-style: italic;
+}
+
+#boxes {
+	margin: 25px;
+	height: 170px;
+}	
+.box {
+	float:left;
+	width: 160px;
+	height: 160px;
+	margin: 0 5px;
+	background-color: #00deff;
+	background-color: black;
+	
+	font-family:Impact;
+	font-style: italic;
+	font-size: 30px;
+	
+	vertical-align: bottom;
+	text-align: right;
+	line-height:160px;
+
+	/*for rounded corner*/
+	border-radius: 20px;
+	-moz-border-radius:20px;
+	-webkit-border-radius:20px;
+	-khtml-border-radius:20px	
+}
+
+#twit, #wp, #lin{
+	float:left;
+	width: 160px;
+	height: 160px;
+	margin: 0 5px;
+
+}
+#twit:hover, #wp:hover, #lin:hover {
+	background-position: -160px 0;
+}
+#twit{
+	background:url("images/twit_full.png") 0 0 no-repeat
+}
+#wp{
+	background:url("images/wp_full.png") 0 0 no-repeat
+}
+#lin{
+	background:url("images/lin_full.png") 0 0 no-repeat
+}
+
+
+
+
+#footer {
+	float:left;
+	text-align:right;
+	
+	margin-top: 10px;
+	margin-bottom: 0px;
+	background-color: white;
+	width: 900px;
+	height: 30px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	
+}
+
+#footerText {
+	font-family: impact;
+	margin: 10px;
+}
